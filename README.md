@@ -2,6 +2,8 @@
 
 This repository contains the utilities needed to emulate the NASA Ames Mars Global Climate Model (MGCM) using Gaussian Process emulation.
 
+[![DOI](https://zenodo.org/badge/562292845.svg)](https://zenodo.org/badge/latestdoi/562292845)
+
 ## Utilities
 
 The `Emulator_Utils` directory contains four files used to collect data from the MGCM and train the emulator.

@@ -33,4 +33,4 @@ The `Figures/Utils` directory contains four files that test and plot the results
 3. Run the simulations using `Emulator_Utils/GCMBot.py`
 4. Convert the output to usable data via `Emulator_Utils/GCMConvert.py`
 5. Train and run the emulator on outputs of interest via `Emulator_Utils/Emulate.py`
-6. Plot the results using `Figures/Utils/BWE_Combined.py`, `Figures/Utils/BWE_Plots.py`, `Figures/Utils/forward_error_table.py`, and 
+6. Plot the results using `Figures/Utils/BWE_Combined.py`, `Figures/Utils/BWE_Plots.py`, `Figures/Utils/forward_error_table.py`, and `Figures/Utils/PlotRelativeError.py` 

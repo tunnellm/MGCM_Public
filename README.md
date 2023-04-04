@@ -16,7 +16,11 @@ The `Emulator_Utils` directory contains four files used to collect data from the
 
 `Emulator_Utils/Emulate.py` trains the emulator and performs the emulator over a selection. Python Dependencies: sklearn, numba, h5py, and numpy.
 
-The `Figures/Utils` directory contains two files that test and plot the results found in the paper.
+The `Figures/Utils` directory contains four files that test and plot the results found in the paper.
+
+`Figures/Utils/forward_error_table.py` outputs the data that was used to create Table1.
+
+`Figures/Utils/PlotRelativeError.py` plots the forward error graph that was used in the paper.
 
 `Figures/Utils/BWE_Combined.py` creates the combined backward error analysis plots. Python Dependencies: matplotlib, numpy, h5py, and sklearn.
 
@@ -29,4 +33,4 @@ The `Figures/Utils` directory contains two files that test and plot the results 
 3. Run the simulations using `Emulator_Utils/GCMBot.py`
 4. Convert the output to usable data via `Emulator_Utils/GCMConvert.py`
 5. Train and run the emulator on outputs of interest via `Emulator_Utils/Emulate.py`
-6. Plot the results using `Figures/Utils/BWE_Combined.py` and `Figures/Utils/BWE_Plots.py`
+6. Plot the results using `Figures/Utils/BWE_Combined.py`, `Figures/Utils/BWE_Plots.py`, `Figures/Utils/forward_error_table.py`, and 
